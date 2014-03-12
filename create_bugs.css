@@ -1,0 +1,63 @@
+body
+{
+font-family: Helvetica;
+font-size: 100%;
+line-height: 130%	
+}
+.labels{
+	width: 50%;
+	border:1px solid black;
+	background: #DFDFE0;
+	float:left;
+	margin-top: 3%;
+	margin-left: 2%;
+	border-top:2px solid #B0B0AB;
+	border-right:2px solid black;
+	border-bottom:2px solid black;
+	border-left:2px solid #B0B0AB; 
+}
+#textbox1{
+	width:85%;
+}
+#characters_remaining
+{
+	position:absolute;
+	left:9.6%;
+}
+.labels select{
+	position:absolute;
+	left:300px;
+	width:150px;	
+}
+.labels li{
+	list-style: none;
+	margin-top: 16px;
+}
+span{
+	font-size: 11px;
+}
+.sidebar{
+	float:right;
+	padding-right:10%;
+}
+.sidebar a{
+	text-decoration: none;
+}
+.commentsize{
+	color:blue;
+}
+#comments_section{
+	margin-left:40px;
+}
+#textoncomment{
+	font-size: 11px;
+	color: green;
+}
+#comment
+{
+	width:95%;	
+}
+#submit{
+	padding-left: 300px;
+	width:150px;
+}
